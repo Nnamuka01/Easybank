@@ -14,6 +14,7 @@ import YoutubeIcon from '../assets/icon-youtube.svg';
 import TwitterIcon from '../assets/icon-twitter.svg';
 import PinterestIcon from '../assets/icon-pinterest.svg';
 import InstagramIcon from '../assets/icon-instagram.svg';
+import FooterLogo from '../assets/logo-dark.svg';
 const Landing = () => {
     // Toggle mobile menu
     const [menuOpen, setMenuOpen] = useState(false);
@@ -143,7 +144,7 @@ const Landing = () => {
               <section className="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
                 {/* Left item */}
                 <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
-                  <h1 className="max-w-md text-4xl  text-center md:text-5xl md:text-left">
+                  <h1 className="max-w-md text-4xl text-darkBlue  text-center md:text-5xl md:text-left">
                     Next generation digital banking
                   </h1>
                   <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
@@ -172,8 +173,8 @@ const Landing = () => {
               {/* Flex Container */}
               <section className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0">
                 {/* Why Easybank */}
-                <div className="flex flex-col space-y-12 md:w-full">
-                  <h2 className="max-w-md text-4xl text-center md:text-left">
+                <div className="flex flex-col space-y-8 md:w-full">
+                  <h2 className="max-w-md text-darkBlue text-4xl text-center md:text-left">
                     Why choose Easybank?
                   </h2>
                   <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
@@ -194,7 +195,7 @@ const Landing = () => {
                       />
                     </div>
                     {/* Heading */}
-                    <h3 className="text-xl text-center md:text-left">
+                    <h3 className="text-lg text-darkBlue text-center md:text-left">
                       Online Banking
                     </h3>
                     {/* Paragraph */}
@@ -214,7 +215,7 @@ const Landing = () => {
                       />
                     </div>
                     {/* Heading */}
-                    <h3 className="text-xl text-center md:text-left">
+                    <h3 className="text-lg text-darkBlue text-center md:text-left">
                       Simple Budgeting
                     </h3>
                     {/* Paragraph */}
@@ -234,7 +235,7 @@ const Landing = () => {
                       />
                     </div>
                     {/* Heading */}
-                    <h3 className="text-xl text-center md:text-left">
+                    <h3 className="text-lg text-darkBlue text-center md:text-left">
                       Fast Onboarding
                     </h3>
                     {/* Paragraph */}
@@ -250,7 +251,7 @@ const Landing = () => {
                       <img src={ApiIcon} className="h-14" alt="The API Icon" />
                     </div>
                     {/* Heading */}
-                    <h3 className="text-xl text-center md:text-left">
+                    <h3 className="text-lg text-darkBlue text-center md:text-left">
                       Open API
                     </h3>
                     {/* Paragraph */}
@@ -269,7 +270,7 @@ const Landing = () => {
               <section className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0">
                 {/* Heading */}
                 <div className="flex flex-col mb-8 space-y-12 md:w-full">
-                  <h2 className="max-w-md text-4xl text-center md:text-left">
+                  <h2 className="max-w-md text-darkBlue text-3xl text-center md:text-left">
                     Latest Articles
                   </h2>
                 </div>
@@ -286,13 +287,13 @@ const Landing = () => {
                     />
                     {/* Content */}
                     <div className="bg-white">
-                      <h5 className="text-sm text-darkGrayishBlue">
+                      <h5 className="text-sm mt-4 text-darkGrayishBlue">
                         By Claire Robinson
                       </h5>
-                      <h3 className="text-xl font-semibold">
+                      <h3 className="text-xl text-darkBlue mt-2 font-normal">
                         Receive money in any currency with no fees
                       </h3>
-                      <p className="text-darkGrayishBlue">
+                      <p className="text-darkGrayishBlue mt-2">
                         The world is getting smaller and we're becoming more
                         mobile. So why should you be forced to only receive
                         money in a single currency?
@@ -310,13 +311,13 @@ const Landing = () => {
                     />
                     {/* Content */}
                     <div className="bg-white">
-                      <h5 className="text-sm text-darkGrayishBlue">
+                      <h5 className="text-sm mt-8 text-darkGrayishBlue">
                         By Wilson Hutton
                       </h5>
-                      <h3 className="text-xl font-semibold">
+                      <h3 className="text-xl text-darkBlue font-normal mt-3">
                         Treat yourself without worrying about money
                       </h3>
-                      <p className="text-darkGrayishBlue">
+                      <p className="text-darkGrayishBlue mt-2">
                         Our simple budgeting feature allows you to separate your
                         spending and set realistic limits each month.
                       </p>
@@ -333,13 +334,13 @@ const Landing = () => {
                     />
                     {/* Content */}
                     <div className="bg-white">
-                      <h5 className="text-sm text-darkGrayishBlue">
+                      <h5 className="text-sm mt-8 text-darkGrayishBlue">
                         By Wilson Hutton
                       </h5>
-                      <h3 className="text-xl font-semibold">
+                      <h3 className="text-xl text-darkBlue mt-3 font-normal">
                         Take your Easybank card wherever you go
                       </h3>
-                      <p className="text-darkGrayishBlue">
+                      <p className="text-darkGrayishBlue mt-2">
                         We want you to enjoy your travels. This is why we don't
                         charge any fees on purchases while you're abroad.
                       </p>
@@ -356,13 +357,13 @@ const Landing = () => {
                     />
                     {/* Content */}
                     <div className="bg-white">
-                      <h5 className="text-sm text-darkGrayishBlue">
+                      <h5 className="text-sm mt-8 text-darkGrayishBlue">
                         By Claire Robinson
                       </h5>
-                      <h3 className="text-xl font-semibold">
+                      <h3 className="text-xl text-darkBlue mt-3 font-normal">
                         Our invite-only Beta accounts are now live!
                       </h3>
-                      <p className="text-darkGrayishBlue">
+                      <p className="text-darkGrayishBlue mt-2">
                         After a lot of hard work by the whole team, we're
                         excited to launch our closed beta. It's easy to request
                         an invite through the site.
@@ -375,41 +376,67 @@ const Landing = () => {
           </main>
 
           {/* Footer */}
-          <footer className='bg-darkBlue'>
-            {/* Flex container */}
-            <div className="container flex flex-col justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
-              {/* Logo and social links */}
-              <div className="flex flex-col items-center justify-between space-y-12 md:flex-row md:space-y-0 md:items-center">
-                {/* Logo */}
-                <div>
-                  <img src={Logo}  alt="Footer Logo" />
-                </div>
-                {/* Social Links */}
-                <div className="flex justify-center space-x-8">
-                  {/* Link 1 */}
-                  <a href="#">
-                    <img src={FacebookIcon} alt="Facebook Icon" />
-                  </a>
-                  {/* Link 2 */}
-                  <a href="#">
-                    <img src={YoutubeIcon} alt="Youtube Icon" />
-                  </a>
-                  {/* Link 3 */}
-                  <a href="#">
-                    <img src={TwitterIcon} alt="Twitter Icon" />
-                  </a>
-                  {/* Link 4 */}
-                  <a href="#">
-                    <img src={PinterestIcon} alt="Pinterest Icon" />
-                  </a>
-                  {/* Link 5 */}
-                  <a href="#">
-                    <img src={InstagramIcon} alt="Instagram Icon" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </footer>
+          <footer className="bg-darkBlue text-white mt-8 py-10">
+      <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between md:items-start space-y-8 md:space-y-0">
+        {/* Logo and Social Links */}
+        <div className="flex flex-col items-center md:items-start space-y-6">
+          {/* Logo */}
+          <img src={FooterLogo} alt="Easybank Logo" className="h-6" />
+          {/* Social Links */}
+          <div className="flex space-x-4">
+            <a href="#">
+              <img src={FacebookIcon} alt="Facebook Icon" className="h-5" />
+            </a>
+            <a href="#">
+              <img src={YoutubeIcon} alt="Youtube Icon" className="h-5" />
+            </a>
+            <a href="#">
+              <img src={TwitterIcon} alt="Twitter Icon" className="h-5" />
+            </a>
+            <a href="#">
+              <img src={PinterestIcon} alt="Pinterest Icon" className="h-5" />
+            </a>
+            <a href="#">
+              <img src={InstagramIcon} alt="Instagram Icon" className="h-5" />
+            </a>
+          </div>
+        </div>
+
+        {/* Links */}
+        <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
+          <div className="flex flex-col space-y-3 text-center md:text-left">
+            <a href="#" className="hover:text-limeGreen">
+              About Us
+            </a>
+            <a href="#" className="hover:text-limeGreen">
+              Contact
+            </a>
+            <a href="#" className="hover:text-limeGreen">
+              Blog
+            </a>
+          </div>
+          <div className="flex flex-col space-y-3 text-center md:text-left">
+            <a href="#" className="hover:text-limeGreen">
+              Careers
+            </a>
+            <a href="#" className="hover:text-limeGreen">
+              Support
+            </a>
+            <a href="#" className="hover:text-limeGreen">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+
+        {/* Button and Copyright */}
+        <div className="flex flex-col items-center space-y-6 md:items-end">
+          <button className="bg-gradient-to-r from-limeGreen to-brightCyan text-white px-6 py-2 rounded-full hover:opacity-80">
+            Request Invite
+          </button>
+          <p className="text-sm text-gray-400">© Easybank. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
         </div>
       );
 }
